@@ -142,6 +142,10 @@ body {
     min-width: 240px;
 }
 
+.services-dropdown {
+    min-width: 280px;
+}
+
 .dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;

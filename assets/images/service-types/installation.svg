@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="installGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C8102E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="80" height="80" rx="16" fill="url(#installGrad)"/>
+  <g fill="white">
+    <!-- Hammer -->
+    <rect x="32" y="45" width="30" height="6" rx="2" transform="rotate(-45 47 48)"/>
+    <rect x="50" y="28" width="8" height="16" rx="2" transform="rotate(-45 54 36)"/>
+    <!-- Wrench -->
+    <path d="M 25 52 L 20 57 L 23 60 L 28 55 L 30 57 L 35 52 L 30 47 Z" fill="white"/>
+    <circle cx="32" cy="45" r="3" fill="white"/>
+  </g>
+</svg>
