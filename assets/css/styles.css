@@ -138,6 +138,10 @@ body {
     list-style: none;
 }
 
+.roofing-dropdown {
+    min-width: 240px;
+}
+
 .dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
@@ -149,13 +153,22 @@ body {
 }
 
 .dropdown-menu a {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
     padding: var(--spacing-xs) var(--spacing-sm);
     border-radius: var(--radius-sm);
 }
 
 .dropdown-menu a:hover {
     background: var(--gray-100);
+}
+
+.dropdown-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-sm);
+    flex-shrink: 0;
 }
 
 .emergency-call {

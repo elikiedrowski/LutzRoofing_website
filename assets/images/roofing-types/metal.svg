@@ -1,0 +1,14 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="80" height="80" rx="16" fill="url(#gradient5)"/>
+  <path d="M15 45 L25 35 L35 45 L45 35 L55 45 L65 35" stroke="white" stroke-width="3" fill="none" opacity="0.9"/>
+  <path d="M15 50 L25 40 L35 50 L45 40 L55 50 L65 40" stroke="white" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M15 55 L25 45 L35 55 L45 45 L55 55 L65 45" stroke="white" stroke-width="3" fill="none" opacity="0.5"/>
+  <rect x="25" y="30" width="2" height="8" fill="white" opacity="0.8"/>
+  <rect x="45" y="30" width="2" height="8" fill="white" opacity="0.8"/>
+  <defs>
+    <linearGradient id="gradient5" x1="0" y1="0" x2="80" y2="80">
+      <stop offset="0%" stop-color="#C8102E"/>
+      <stop offset="100%" stop-color="#8B0000"/>
+    </linearGradient>
+  </defs>
+</svg>
