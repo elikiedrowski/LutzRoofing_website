@@ -207,7 +207,7 @@ body {
 .hero {
     background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 100%);
     color: var(--white);
-    padding: var(--spacing-3xl) 0;
+    padding: calc(var(--spacing-3xl) * 2) 0;
     position: relative;
     overflow: hidden;
 }
@@ -225,7 +225,7 @@ body {
 
 .hero .container {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
     gap: var(--spacing-2xl);
     align-items: center;
     position: relative;
