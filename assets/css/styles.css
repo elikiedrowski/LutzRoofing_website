@@ -432,6 +432,35 @@ body {
 }
 
 /* Certifications */
+/* Certification Banner - Top of page */
+.cert-banner {
+    background: var(--gray-100);
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--gray-200);
+}
+
+.cert-banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.cert-banner img {
+    height: 50px;
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.cert-banner img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* Certifications Section - For homepage */
 .certifications {
     padding: var(--spacing-2xl) 0;
     background: var(--gray-100);
