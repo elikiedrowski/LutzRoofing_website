@@ -225,7 +225,7 @@ body {
 
 .hero .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
     gap: var(--spacing-2xl);
     align-items: center;
     position: relative;
@@ -374,8 +374,6 @@ body {
 .service-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, var(--primary-blue), var(--accent-light));
-    border-radius: var(--radius-lg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -383,9 +381,9 @@ body {
 }
 
 .service-icon img {
-    width: 40px;
-    height: 40px;
-    filter: brightness(0) invert(1);
+    width: 80px;
+    height: 80px;
+    border-radius: var(--radius-lg);
 }
 
 .service-card h3 {
