@@ -2,11 +2,13 @@
 /* Inspired by CRM Wizards design with Lutz branding */
 
 :root {
-    /* Primary Colors - Modern take on roofing industry */
-    --primary-blue: #1e3a8a;
-    --primary-dark: #0f172a;
-    --accent-orange: #ea580c;
-    --accent-light: #fb923c;
+    /* Primary Colors - Lutz Roofing brand colors */
+    --primary-red: #C8102E;
+    --primary-dark: #000000;
+    --accent-silver: #C0C0C0;
+    --accent-light: #E5E5E5;
+    --primary-blue: #C8102E; /* Alias for backwards compatibility */
+    --accent-orange: #C8102E; /* Alias for backwards compatibility */
     
     /* Neutral Colors */
     --white: #ffffff;
@@ -16,7 +18,7 @@
     --gray-300: #cbd5e1;
     --gray-700: #334155;
     --gray-800: #1e293b;
-    --gray-900: #0f172a;
+    --gray-900: #000000;
     
     /* Spacing */
     --spacing-xs: 0.5rem;
@@ -88,6 +90,8 @@ body {
 .navbar .logo img {
     height: 50px;
     width: auto;
+    max-width: 200px;
+    object-fit: contain;
 }
 
 .nav-menu {
@@ -503,6 +507,9 @@ body {
 
 .footer-logo {
     height: 50px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
     margin-bottom: var(--spacing-md);
 }
 
@@ -589,6 +596,7 @@ body {
     border-radius: 50%;
     background: var(--white);
     padding: 5px;
+    object-fit: contain;
 }
 
 .chat-window {
