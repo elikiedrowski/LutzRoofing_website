@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+  <!-- Circular icon version for chat widget -->
+  <defs>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="25" cy="25" r="24" fill="url(#iconGradient)"/>
+  <path d="M 25 12 L 35 22 L 33 22 L 33 32 L 28 32 L 28 26 L 22 26 L 22 32 L 17 32 L 17 22 L 15 22 Z" fill="white"/>
+</svg>

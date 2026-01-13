@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Built-Up Roof Icon - Layered -->
+  <rect x="10" y="45" width="80" height="8" fill="white" opacity="0.9"/>
+  <rect x="12" y="53" width="76" height="8" fill="white" opacity="0.8"/>
+  <rect x="14" y="61" width="72" height="8" fill="white" opacity="0.7"/>
+  <rect x="16" y="69" width="68" height="8" fill="white" opacity="0.6"/>
+  <path d="M 10 45 L 50 25 L 90 45" stroke="white" stroke-width="2" fill="none"/>
+</svg>

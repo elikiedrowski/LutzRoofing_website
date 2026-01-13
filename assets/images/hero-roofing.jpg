@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Placeholder hero image - commercial roofing -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e3a8a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="800" height="500" fill="url(#skyGradient)"/>
+  
+  <!-- Building silhouette -->
+  <rect x="50" y="250" width="300" height="250" fill="#0f172a"/>
+  <rect x="400" y="200" width="350" height="300" fill="#1e293b"/>
+  
+  <!-- Roof details -->
+  <polygon points="50,250 200,180 350,250" fill="#334155"/>
+  <polygon points="400,200 575,150 750,200" fill="#475569"/>
+  
+  <!-- Text overlay -->
+  <text x="400" y="100" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">
+    Commercial Roofing Excellence
+  </text>
+  
+  <!-- Replace this SVG with actual photo from Lutz Roofing -->
+  <text x="400" y="450" font-family="Arial" font-size="14" fill="white" opacity="0.7" text-anchor="middle">
+    Replace with actual roofing project photo
+  </text>
+</svg>
